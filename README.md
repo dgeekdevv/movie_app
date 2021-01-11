@@ -28,5 +28,3 @@ Use the following credentials to Admin login /admin
 ```bash
 Email: diego@scissorboy.com
 Password: diego@2021
-
-* ...
