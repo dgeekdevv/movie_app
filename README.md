@@ -29,7 +29,7 @@ Use the following credentials to Admin login /admin
 Email: diego@scissorboy.com
 Password: diego@2021
 
-Find the Postman collection for API details.
-
+```
+* Find the Postman collection for API details.
 ```bash
 MovieApp.postman_collection.json
