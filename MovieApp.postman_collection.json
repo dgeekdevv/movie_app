@@ -1,0 +1,204 @@
+{
+	"id": "31a3da3e-b039-403c-1b96-ff4d5497af30",
+	"name": "MovieApp",
+	"description": "",
+	"order": [
+		"b816fc68-5cbc-9a2b-8dcd-67b124a41e9a",
+		"b279755d-52af-1687-4f3a-23b771a8a734",
+		"eb5e40f7-45c1-5b0d-86dc-0840366b5e85",
+		"5f09e487-f057-c091-ff52-bb3d824ee9bf",
+		"d008562f-08fb-d162-bfe5-c9cf5ad3a0c1",
+		"6ab3ff14-1a24-fcc6-4f67-be221c318c71"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1610372713844,
+	"owner": "12894767",
+	"public": false,
+	"requests": [
+		{
+			"id": "5f09e487-f057-c091-ff52-bb3d824ee9bf",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/v1/users/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "31a3da3e-b039-403c-1b96-ff4d5497af30",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/api/v1/movies",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1610374684004,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \n\t\"user\":{\n\t\t\"username\": \"Test user\"\n   }\n}"
+		},
+		{
+			"id": "6ab3ff14-1a24-fcc6-4f67-be221c318c71",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/v1/users/1/favourite_movies_list",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "31a3da3e-b039-403c-1b96-ff4d5497af30",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/api/v1/movies",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1610375195186,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \n\t\"movie_id\": 1\n}"
+		},
+		{
+			"id": "b279755d-52af-1687-4f3a-23b771a8a734",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/v1/movies/1/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "31a3da3e-b039-403c-1b96-ff4d5497af30",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/api/v1/movies",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1610374081973,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \n\t\"movie\":{\n\t\t\"user_id\": 1,\n\t\t\"id\": 1,\n\t\t\"favourite\": true\n   }\n}"
+		},
+		{
+			"id": "b816fc68-5cbc-9a2b-8dcd-67b124a41e9a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/v1/movies/1/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1610374076714,
+			"name": "localhost:3000/api/v1/movies",
+			"description": "",
+			"collectionId": "31a3da3e-b039-403c-1b96-ff4d5497af30",
+			"responses": [],
+			"rawModeData": "{ \n\t\"movie\":{\n\t\t\"user_id\": 1,\n\t\t\"id\": 1,\n\t\t\"favourite\": true\n   }\n}"
+		},
+		{
+			"id": "d008562f-08fb-d162-bfe5-c9cf5ad3a0c1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/v1/users/1/add_to_favorite",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "31a3da3e-b039-403c-1b96-ff4d5497af30",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/api/v1/movies",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1610375184776,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \n\t\"movie_id\": 1\n}"
+		},
+		{
+			"id": "eb5e40f7-45c1-5b0d-86dc-0840366b5e85",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/v1/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "31a3da3e-b039-403c-1b96-ff4d5497af30",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/api/v1/movies",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1610374622111,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \n\t\"user\":{\n\t\t\"username\": \"Test user\"\n   }\n}"
+		}
+	]
+}
